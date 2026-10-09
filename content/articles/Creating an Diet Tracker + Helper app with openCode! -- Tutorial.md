@@ -9,4 +9,4 @@ cover:
 image: images/opencode.png
 ---
 
-Hey guys! Hyp-n here! So, today, we are going to use openCode, an agentic harness, to make an Diet Tracker App! So, don't worry this is more of a hands-on tutorial, I'm not going
+Hey guys! Hyp-n here! So, today, we are going to use openCode, an agentic harness, to make an Diet Tracker App! So, don't worry this is more of a hands-on tutorial, I'm not going to spoonfeed you, you're going to be 

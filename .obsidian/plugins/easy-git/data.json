@@ -1,0 +1,101 @@
+{
+  "auth": {
+    "method": "oauth",
+    "token": "",
+    "provider": "github",
+    "scopes": [
+      "repo"
+    ],
+    "username": "hyp-n"
+  },
+  "mappings": [
+    {
+      "id": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "name": "blog-lol",
+      "vaultFolder": "/",
+      "direction": "both",
+      "autoMode": {
+        "kind": "onSave",
+        "debounceMs": 10000
+      },
+      "rewriteWikilinks": true,
+      "destinations": [
+        {
+          "id": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+          "repoOwner": "hyp-n",
+          "repoName": "blog-lol",
+          "branch": "main",
+          "remoteFolder": ""
+        }
+      ]
+    }
+  ],
+  "defaultCommitTemplate": "Sync from Obsidian ({mapping}): {datetime} — {added}+ {modified}~ {deleted}-",
+  "excludedPaths": [
+    ".trash/**",
+    ".git/**",
+    "node_modules/**",
+    ".easy-git-backup/**",
+    ".claude/**",
+    ".DS_Store",
+    "Thumbs.db",
+    "*.tmp",
+    "*.swp",
+    ".obsidian/**"
+  ],
+  "maxFileSizeBytes": 99614720,
+  "showNotifications": true,
+  "debugLogging": false,
+  "autoResolveByMtime": true,
+  "autoMergeText": true,
+  "syncLog": [
+    {
+      "timestamp": 1791531449282,
+      "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "mappingName": "blog-lol",
+      "destinationId": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+      "destinationLabel": "hyp-n/blog-lol:main//",
+      "trigger": "manual",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 2,
+      "filesTouched": 0,
+      "error": "Sync cancelled at conflict resolution.",
+      "durationMs": 1202
+    },
+    {
+      "timestamp": 1791531439761,
+      "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "mappingName": "blog-lol",
+      "destinationId": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+      "destinationLabel": "hyp-n/blog-lol:main//",
+      "trigger": "on-save",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 0,
+      "filesTouched": 0,
+      "error": "Vault file not found: themes/stacknote/.git",
+      "durationMs": 54618
+    },
+    {
+      "timestamp": 1791531385124,
+      "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "mappingName": "blog-lol",
+      "destinationId": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+      "destinationLabel": "hyp-n/blog-lol:main//",
+      "trigger": "on-save",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 0,
+      "filesTouched": 0,
+      "error": "Vault file not found: themes/stacknote/.git",
+      "durationMs": 55106
+    }
+  ]
+}
