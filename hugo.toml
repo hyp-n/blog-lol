@@ -3,6 +3,8 @@ title = "Hypn's Stuff"
 theme = "stacknote"
 locale = "en-US"
 enableRobotsTXT = true
+relativeURLs = false
+canonifyURLs = true
 
 [pagination]
 pagerSize = 10
@@ -26,7 +28,7 @@ aboutIntro = "I try not to goof around :)"
 github = "https://github.com/hyp-n"
 email = "sphereunidentified@gmail.com"
 mainSection = "articles"
-authorPage = "/about/"
+authorPage = "about/"
 showToc = true
 showTopics = true
 showAbout = true

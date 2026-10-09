@@ -1,6 +1,6 @@
 ---
 title: About Me
 layout: about
-draft: "false"
+draft: false
 ---
 {{<typing_about>}}

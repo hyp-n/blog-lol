@@ -29,7 +29,7 @@
               "state": {
                 "file": "content/about.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "about"
@@ -204,14 +204,24 @@
   },
   "active": "8dd97fd92c69b999",
   "lastOpenFiles": [
+    "public/index.xml",
+    "public/index.json",
+    "public/search/index.html",
+    "public/search",
+    "public/archives/index.html",
+    "public/archives",
+    "public/tags/writing/page/1/index.html",
+    "public/tags/systems/page/1/index.html",
+    "public/tags/writing/page/1",
+    "public/tags/systems/page/1",
+    "public/tags/page/1/index.html",
+    "public/images/opencode.png",
+    "public/favicon.svg",
     "content/articles/Creating an Diet Tracker + Helper app with openCode! -- Tutorial.md",
     "layouts/shortcodes/mermaid.html.md",
-    "layouts/shortcodes/mermaid.html",
-    "layouts/shortcodes/typing_about.html",
     "content/articles/Creating an Diet Tracker + Helper app with openCode! -- Blog.md",
     "content/about.md",
     "Untitled.md",
-    "static/images",
     "static/images/opencode.png"
   ]
 }
