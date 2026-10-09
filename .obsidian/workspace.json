@@ -204,8 +204,10 @@
   },
   "active": "8dd97fd92c69b999",
   "lastOpenFiles": [
-    "content/articles/Creating an Diet Tracker + Helper app with openCode! -- Blog.md",
     "content/articles/Creating an Diet Tracker + Helper app with openCode! -- Tutorial.md",
+    "content/articles/Creating an Diet Tracker + Helper app with openCode! -- Tutorial.md",
+    "layouts/shortcodes/typing_about.html",
+    "content/articles/Creating an Diet Tracker + Helper app with openCode! -- Blog.md",
     "content/about.md",
     "Untitled.md",
     "static/images",

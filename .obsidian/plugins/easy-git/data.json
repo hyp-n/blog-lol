@@ -50,6 +50,38 @@
   "autoMergeText": true,
   "syncLog": [
     {
+      "timestamp": 1791531843627,
+      "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "mappingName": "blog-lol",
+      "destinationId": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+      "destinationLabel": "hyp-n/blog-lol:main//",
+      "trigger": "manual",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 0,
+      "filesTouched": 0,
+      "error": "Vault file not found: themes/stacknote/.git",
+      "durationMs": 52579
+    },
+    {
+      "timestamp": 1791531554039,
+      "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "mappingName": "blog-lol",
+      "destinationId": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+      "destinationLabel": "hyp-n/blog-lol:main//",
+      "trigger": "manual",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 2,
+      "filesTouched": 0,
+      "error": "Sync cancelled at conflict resolution.",
+      "durationMs": 102605
+    },
+    {
       "timestamp": 1791531449282,
       "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
       "mappingName": "blog-lol",
