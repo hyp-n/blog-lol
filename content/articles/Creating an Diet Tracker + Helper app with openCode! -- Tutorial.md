@@ -15,3 +15,17 @@ Hey guys! Hyp-n here! So, today, we are going to use openCode, an agentic harnes
 - Install openCode, connect it to openrouter
 
 ## Using an AI orchestrator along with subagents.
+
+```mermaid
+graph TD
+    A[User Prompt: Change/Add Feature] --> B{Orchestrator Agent}
+    B --> F[Provide Update to User]
+    
+    B -->|Prompt & Context| C[Coder Subagent]
+    C -->|Output| B
+    B -->|Review| D[Security Subagent]
+    D -->|Feedback| B
+    B -->|Test via MCPs| E[Tester Subagent]
+    E -->|Results| B
+```
+

@@ -50,6 +50,22 @@
   "autoMergeText": true,
   "syncLog": [
     {
+      "timestamp": 1791531907213,
+      "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "mappingName": "blog-lol",
+      "destinationId": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+      "destinationLabel": "hyp-n/blog-lol:main//",
+      "trigger": "manual",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 0,
+      "filesTouched": 0,
+      "error": "Vault file not found: themes/stacknote/.git",
+      "durationMs": 48715
+    },
+    {
       "timestamp": 1791531843627,
       "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
       "mappingName": "blog-lol",
