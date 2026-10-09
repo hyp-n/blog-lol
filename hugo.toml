@@ -1,0 +1,44 @@
+baseURL = "https://example.com/"
+title = "Hypn's Stuff"
+theme = "stacknote"
+locale = "en-US"
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 10
+
+[taxonomies]
+tag = "tags"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+author = "hyp-n"
+authorInitials = "h-"
+role = "random kid"
+tagline = "Wonking stuff around till smth works!"
+description = "Notes about the stuff I do.. And I do ALOT"
+homeEyebrow = ""
+homeTitle = "Using OpenCode code with multi-agent setups to vibecode some projects"
+homeIntro = "Using the openCode terminal software, in order to create mezmerizing projects, and documenting everything along the way."
+aboutIntro = "I try not to goof around :)"
+github = "https://github.com/hyp-n"
+email = "sphereunidentified@gmail.com"
+mainSection = "articles"
+authorPage = "/about/"
+showToc = true
+showTopics = true
+showAbout = true
+showNewsletter = false
+newsletterURL = ""
+minTagPostsToIndex = 2
+themeColor = "#FAFAF7"
+
+[[params.socialLinks]]
+name = "github"
+url = "https://github.com/hyp-n"
+
+[[params.socialLinks]]
+name = "email"
+url = "mailto:sphereunidentified@gmail.com"
