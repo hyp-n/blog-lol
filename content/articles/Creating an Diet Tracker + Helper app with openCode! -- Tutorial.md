@@ -16,7 +16,7 @@ Hey guys! Hyp-n here! So, today, we are going to use openCode, an agentic harnes
 
 ## Using an AI orchestrator along with subagents.
 
-```mermaid
+{{<mermaid>}}
 graph TD
     A[User Prompt: Change/Add Feature] --> B{Orchestrator Agent}
     B --> F[Provide Update to User]
@@ -27,5 +27,5 @@ graph TD
     D -->|Feedback| B
     B -->|Test via MCPs| E[Tester Subagent]
     E -->|Results| B
-```
+{{</mermaid>}}
 
