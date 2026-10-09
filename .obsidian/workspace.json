@@ -11,10 +11,14 @@
             "id": "cf8bfaa0baf0d21d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/articles/Creating an Diet Tracker + Helper app with openCode! -- Blog.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Creating an Diet Tracker + Helper app with openCode! -- Blog"
             }
           }
         ]
@@ -181,6 +185,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "cac9632a338581b8",
-  "lastOpenFiles": []
+  "active": "cf8bfaa0baf0d21d",
+  "lastOpenFiles": [
+    "content/articles/Creating an Diet Tracker + Helper app with openCode! -- Blog.md"
+  ]
 }
