@@ -2,9 +2,18 @@
 tags:
   - Writing
   - Systems
-date: 2026-10-09
-title: Creating an Diet Tracker + Helper app with openCode!
-description: You know, most diet tracker apps are paid, lets try vibecoding to try and fix that!
+  - AI
+  - Opencode
+  - Tutorial
+  - GUide
+  - SEO
+  - recipes
+  - dosa
+  - Performance
+  - Coding
+date: 2026-10-10
+title: Creating stuff with opencode and oh-my-opencode
+description: Creating interesting artifacts and apps, just to have fun :)
 cover:
 image: images/opencode.png
 ---
@@ -54,6 +63,6 @@ flowchart TB
 {{</mermaid>}}
 
 . This setup is powerful, because the agent does not trust itself, instead, it does the opposite. It uses *MULTIPLE* agents, in order to cross check and verify. This is... marvelous. And, in order to make my projects with a total budget of 0$, I've used open Router, though you can use anything you want.
-
+	
 
 
