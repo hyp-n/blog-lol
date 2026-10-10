@@ -8,28 +8,7 @@
     ],
     "username": "hyp-n"
   },
-  "mappings": [
-    {
-      "id": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
-      "name": "blog-lol",
-      "vaultFolder": "/",
-      "direction": "both",
-      "autoMode": {
-        "kind": "onSave",
-        "debounceMs": 10000
-      },
-      "rewriteWikilinks": true,
-      "destinations": [
-        {
-          "id": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
-          "repoOwner": "hyp-n",
-          "repoName": "blog-lol",
-          "branch": "main",
-          "remoteFolder": ""
-        }
-      ]
-    }
-  ],
+  "mappings": [],
   "defaultCommitTemplate": "Sync from Obsidian ({mapping}): {datetime} — {added}+ {modified}~ {deleted}-",
   "excludedPaths": [
     ".trash/**",
@@ -49,6 +28,102 @@
   "autoResolveByMtime": true,
   "autoMergeText": true,
   "syncLog": [
+    {
+      "timestamp": 1791629104386,
+      "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "mappingName": "blog-lol",
+      "destinationId": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+      "destinationLabel": "hyp-n/blog-lol:main//",
+      "trigger": "on-save",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 0,
+      "filesTouched": 0,
+      "error": "Vault file not found: themes/stacknote/.git",
+      "durationMs": 72021
+    },
+    {
+      "timestamp": 1791629021249,
+      "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "mappingName": "blog-lol",
+      "destinationId": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+      "destinationLabel": "hyp-n/blog-lol:main//",
+      "trigger": "on-save",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 0,
+      "filesTouched": 0,
+      "error": "Vault file not found: themes/stacknote/.git",
+      "durationMs": 75015
+    },
+    {
+      "timestamp": 1791547222145,
+      "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "mappingName": "blog-lol",
+      "destinationId": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+      "destinationLabel": "hyp-n/blog-lol:main//",
+      "trigger": "on-save",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 1,
+      "filesTouched": 0,
+      "error": "Sync cancelled at conflict resolution.",
+      "durationMs": 148697
+    },
+    {
+      "timestamp": 1791547051999,
+      "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "mappingName": "blog-lol",
+      "destinationId": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+      "destinationLabel": "hyp-n/blog-lol:main//",
+      "trigger": "on-save",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 1,
+      "filesTouched": 0,
+      "error": "Sync cancelled at conflict resolution.",
+      "durationMs": 14960
+    },
+    {
+      "timestamp": 1791546857780,
+      "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "mappingName": "blog-lol",
+      "destinationId": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+      "destinationLabel": "hyp-n/blog-lol:main//",
+      "trigger": "on-save",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 1,
+      "filesTouched": 0,
+      "error": "Sync cancelled at conflict resolution.",
+      "durationMs": 54749
+    },
+    {
+      "timestamp": 1791546744099,
+      "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
+      "mappingName": "blog-lol",
+      "destinationId": "ed633fae-8ade-4e01-8737-cc7fdfc8b297",
+      "destinationLabel": "hyp-n/blog-lol:main//",
+      "trigger": "on-save",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 1,
+      "filesTouched": 0,
+      "error": "Sync cancelled at conflict resolution.",
+      "durationMs": 5690
+    },
     {
       "timestamp": 1791531907213,
       "mappingId": "06dc67ad-3607-452c-bdaf-f2c9f44a4f07",
